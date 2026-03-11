@@ -1,0 +1,48 @@
+manifestVersion: 1
+id: onesandzeros-apps-bitcoin-tax-calculator
+name: Bitcoin Tax Calculator
+tagline: Calculate Bitcoin capital gains for NZ IRD using the WAC method
+icon: https://github.com/onesandzeros-nz/bitcoin-tax/main/bitcoin-tax-calculator/icon.svg
+category: Finance
+version: "1.0.0"
+port: 3123
+description: >-
+    Calculate your Bitcoin capital gains for tax purposes without revealing your
+    full transaction history to your accountant. Import CSV data from Easy Crypto,
+    Lightning Pay, Xapo, Kraken, and CoinCorner, then calculate Weighted Average
+    Cost (WAC) for New Zealand IRD reporting.
+
+
+    You run the calculations yourself and provide only the final tax-relevant
+    figures — total capital gains/losses, opening and closing cost bases — keeping
+    your full transaction history and balances private.
+
+
+    Features:
+
+    - Multi-source CSV import (Easy Crypto, Lightning Pay, Xapo, Kraken, CoinCorner)
+
+    - Automated Weighted Average Cost (WAC) calculation
+
+    - Tax year management with NZ tax year dates (Apr 1 - Mar 31)
+
+    - Detailed reporting and calculations breakdown
+
+    - All raw data preserved for audit
+developer: Ones and Zeros
+website: https://github.com/onesandzeros-nz/bitcoin-tax
+submitter: Ones and Zeros
+submission: https://github.com/onesandzeros-nz/bitcoin-tax
+repo: https://github.com/onesandzeros-nz/bitcoin-tax
+support: https://github.com/onesandzeros-nz/bitcoin-tax/issues
+gallery:
+    - 1.jpg
+    - 2.jpg
+    - 3.jpg
+releaseNotes: >-
+    Initial release with support for Easy Crypto, Lightning Pay, Xapo, Kraken,
+    and CoinCorner CSV imports. Includes WAC calculation and NZ IRD tax reporting.
+dependencies: []
+path: ""
+defaultUsername: ""
+deterministicPassword: true
